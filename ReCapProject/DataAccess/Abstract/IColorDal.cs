@@ -5,10 +5,7 @@ using System.Text;
 
 namespace ReCapProject.DataAccess.Abstract
 {
-    public interface ICarDal : IEntityRepository<Car>
-
+    interface IColorDal : IEntityRepository<Color>
     {
-     
-       
     }
 }
